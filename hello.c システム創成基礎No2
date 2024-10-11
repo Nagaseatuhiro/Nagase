@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("|  (--)zzzzz……  /( ^o^)/(>_<)");
+    
+    int a;
+    a = 333;
+    
+    printf("  |  a is: %d", a);
+    return 0;
+}

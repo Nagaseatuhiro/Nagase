@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main()
+{
+    int k;
+    int g;
+    printf("何人帽子をかぶった人がいますか？");
+    scanf("%d", &k);
+    printf("何人メガネかけた人がいますか？");
+    scanf("%d", &g);
+    
+    if (k >=1)
+    {
+        printf("👒帽子をかぶってる人がいる！👒");
+    }
+    else
+    {
+        printf("帽子をかぶってる人いない…");
+    }
+    if (g >=1)
+    {
+        printf("👓️メガネかけてる人いる！👓️");
+    }
+    else
+    {
+        printf("メガネかけてる人いない…");
+    }
+    
+    
+    return 0;
+    
+}

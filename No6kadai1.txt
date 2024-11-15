@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(void)
+{
+   int Hiroto, Haruto, Kouki;
+    
+    Hiroto = 20; // 
+    Haruto = 60; //
+    Kouki = 20; //
+   
+    if (Hiroto ==20)
+        printf("ヒロトは20歳です\n");
+    if (Haruto !=20)
+        printf("ハルトは22歳ではありません\n");
+    if (Haruto >= 20)
+        printf("ハルトは22歳以上です\n");
+    if (Hiroto < 20)
+        printf("こうきは22歳未満です\n");
+    
+    
+    if (Hiroto > Haruto)
+        printf("ヒロトはこうきより年上です\n");
+    if (Haruto > Hiroto)
+        printf("ハルトはヒロトより年上です\n");
+    
+    return 0;
+}
+    
